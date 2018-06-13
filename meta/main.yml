@@ -1,10 +1,10 @@
 ---
+# Originally based on: https://github.com/UnderGreen/ansible-prometheus-exporters-common
 
 dependencies: []
 
 galaxy_info:
-  author: Sergei Antipov
-  company: 2GIS
+  author: Chris Clonch
   description: Prometheus exporters common tasks
   license: GPLv2
   min_ansible_version: 2.0
@@ -15,5 +15,6 @@ galaxy_info:
   - name: Ubuntu
     versions:
     - xenial
+  - name: Alpine
   galaxy_tags:
   - monitoring
